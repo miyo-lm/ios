@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6D5F900269A61B000BBD76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D5F8FF269A61B000BBD76F /* Assets.xcassets */; };
+		B6D5F906269A61B000BBD76F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5F905269A61B000BBD76F /* main.m */; };
+		B6D5F910269A61B100BBD76F /* DDTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5F90F269A61B100BBD76F /* DDTVTests.m */; };
+		B6D5F91B269A61B100BBD76F /* DDTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5F91A269A61B100BBD76F /* DDTVUITests.m */; };
+		B6D5F92B269A62E800BBD76F /* Libs in Resources */ = {isa = PBXBuildFile; fileRef = B6D5F928269A62E800BBD76F /* Libs */; };
+		B6D5F92C269A62E800BBD76F /* Others in Resources */ = {isa = PBXBuildFile; fileRef = B6D5F929269A62E800BBD76F /* Others */; };
+		B6D5F92D269A62E800BBD76F /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = B6D5F92A269A62E800BBD76F /* Classes */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6D5F90C269A61B100BBD76F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6D5F8E8269A61AF00BBD76F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D5F8EF269A61AF00BBD76F;
+			remoteInfo = DDTV;
+		};
+		B6D5F917269A61B100BBD76F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6D5F8E8269A61AF00BBD76F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D5F8EF269A61AF00BBD76F;
+			remoteInfo = DDTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6D5F8F0269A61AF00BBD76F /* DDTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D5F8FF269A61B000BBD76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6D5F904269A61B000BBD76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D5F905269A61B000BBD76F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6D5F90B269A61B100BBD76F /* DDTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D5F90F269A61B100BBD76F /* DDTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVTests.m; sourceTree = "<group>"; };
+		B6D5F911269A61B100BBD76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D5F916269A61B100BBD76F /* DDTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D5F91A269A61B100BBD76F /* DDTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVUITests.m; sourceTree = "<group>"; };
+		B6D5F91C269A61B100BBD76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D5F928269A62E800BBD76F /* Libs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Libs; sourceTree = "<group>"; };
+		B6D5F929269A62E800BBD76F /* Others */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Others; sourceTree = "<group>"; };
+		B6D5F92A269A62E800BBD76F /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6D5F8ED269A61AF00BBD76F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D5F908269A61B100BBD76F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D5F913269A61B100BBD76F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6D5F8E7269A61AF00BBD76F = {
+			isa = PBXGroup;
+			children = (
+				B6D5F8F2269A61AF00BBD76F /* DDTV */,
+				B6D5F90E269A61B100BBD76F /* DDTVTests */,
+				B6D5F919269A61B100BBD76F /* DDTVUITests */,
+				B6D5F8F1269A61AF00BBD76F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6D5F8F1269A61AF00BBD76F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5F8F0269A61AF00BBD76F /* DDTV.app */,
+				B6D5F90B269A61B100BBD76F /* DDTVTests.xctest */,
+				B6D5F916269A61B100BBD76F /* DDTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D5F8F2269A61AF00BBD76F /* DDTV */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5F92A269A62E800BBD76F /* Classes */,
+				B6D5F928269A62E800BBD76F /* Libs */,
+				B6D5F929269A62E800BBD76F /* Others */,
+				B6D5F8FF269A61B000BBD76F /* Assets.xcassets */,
+				B6D5F904269A61B000BBD76F /* Info.plist */,
+				B6D5F905269A61B000BBD76F /* main.m */,
+			);
+			path = DDTV;
+			sourceTree = "<group>";
+		};
+		B6D5F90E269A61B100BBD76F /* DDTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5F90F269A61B100BBD76F /* DDTVTests.m */,
+				B6D5F911269A61B100BBD76F /* Info.plist */,
+			);
+			path = DDTVTests;
+			sourceTree = "<group>";
+		};
+		B6D5F919269A61B100BBD76F /* DDTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5F91A269A61B100BBD76F /* DDTVUITests.m */,
+				B6D5F91C269A61B100BBD76F /* Info.plist */,
+			);
+			path = DDTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6D5F8EF269A61AF00BBD76F /* DDTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D5F91F269A61B100BBD76F /* Build configuration list for PBXNativeTarget "DDTV" */;
+			buildPhases = (
+				B6D5F8EC269A61AF00BBD76F /* Sources */,
+				B6D5F8ED269A61AF00BBD76F /* Frameworks */,
+				B6D5F8EE269A61AF00BBD76F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDTV;
+			productName = DDTV;
+			productReference = B6D5F8F0269A61AF00BBD76F /* DDTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6D5F90A269A61B100BBD76F /* DDTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D5F922269A61B100BBD76F /* Build configuration list for PBXNativeTarget "DDTVTests" */;
+			buildPhases = (
+				B6D5F907269A61B100BBD76F /* Sources */,
+				B6D5F908269A61B100BBD76F /* Frameworks */,
+				B6D5F909269A61B100BBD76F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D5F90D269A61B100BBD76F /* PBXTargetDependency */,
+			);
+			name = DDTVTests;
+			productName = DDTVTests;
+			productReference = B6D5F90B269A61B100BBD76F /* DDTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6D5F915269A61B100BBD76F /* DDTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D5F925269A61B100BBD76F /* Build configuration list for PBXNativeTarget "DDTVUITests" */;
+			buildPhases = (
+				B6D5F912269A61B100BBD76F /* Sources */,
+				B6D5F913269A61B100BBD76F /* Frameworks */,
+				B6D5F914269A61B100BBD76F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D5F918269A61B100BBD76F /* PBXTargetDependency */,
+			);
+			name = DDTVUITests;
+			productName = DDTVUITests;
+			productReference = B6D5F916269A61B100BBD76F /* DDTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6D5F8E8269A61AF00BBD76F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DDTV;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B6D5F8EF269A61AF00BBD76F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					B6D5F90A269A61B100BBD76F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B6D5F8EF269A61AF00BBD76F;
+					};
+					B6D5F915269A61B100BBD76F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B6D5F8EF269A61AF00BBD76F;
+					};
+				};
+			};
+			buildConfigurationList = B6D5F8EB269A61AF00BBD76F /* Build configuration list for PBXProject "DDTV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6D5F8E7269A61AF00BBD76F;
+			productRefGroup = B6D5F8F1269A61AF00BBD76F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6D5F8EF269A61AF00BBD76F /* DDTV */,
+				B6D5F90A269A61B100BBD76F /* DDTVTests */,
+				B6D5F915269A61B100BBD76F /* DDTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6D5F8EE269A61AF00BBD76F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D5F92B269A62E800BBD76F /* Libs in Resources */,
+				B6D5F92D269A62E800BBD76F /* Classes in Resources */,
+				B6D5F92C269A62E800BBD76F /* Others in Resources */,
+				B6D5F900269A61B000BBD76F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D5F909269A61B100BBD76F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D5F914269A61B100BBD76F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6D5F8EC269A61AF00BBD76F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D5F906269A61B000BBD76F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D5F907269A61B100BBD76F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D5F910269A61B100BBD76F /* DDTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D5F912269A61B100BBD76F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D5F91B269A61B100BBD76F /* DDTVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6D5F90D269A61B100BBD76F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6D5F8EF269A61AF00BBD76F /* DDTV */;
+			targetProxy = B6D5F90C269A61B100BBD76F /* PBXContainerItemProxy */;
+		};
+		B6D5F918269A61B100BBD76F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6D5F8EF269A61AF00BBD76F /* DDTV */;
+			targetProxy = B6D5F917269A61B100BBD76F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6D5F91D269A61B100BBD76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6D5F91E269A61B100BBD76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6D5F920269A61B100BBD76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ3RSC4333;
+				INFOPLIST_FILE = DDTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DDTV.DDTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6D5F921269A61B100BBD76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ3RSC4333;
+				INFOPLIST_FILE = DDTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DDTV.DDTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6D5F923269A61B100BBD76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ3RSC4333;
+				INFOPLIST_FILE = DDTVTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DDTV.DDTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDTV.app/DDTV";
+			};
+			name = Debug;
+		};
+		B6D5F924269A61B100BBD76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ3RSC4333;
+				INFOPLIST_FILE = DDTVTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DDTV.DDTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDTV.app/DDTV";
+			};
+			name = Release;
+		};
+		B6D5F926269A61B100BBD76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ3RSC4333;
+				INFOPLIST_FILE = DDTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DDTV.DDTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DDTV;
+			};
+			name = Debug;
+		};
+		B6D5F927269A61B100BBD76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ3RSC4333;
+				INFOPLIST_FILE = DDTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DDTV.DDTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DDTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6D5F8EB269A61AF00BBD76F /* Build configuration list for PBXProject "DDTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D5F91D269A61B100BBD76F /* Debug */,
+				B6D5F91E269A61B100BBD76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D5F91F269A61B100BBD76F /* Build configuration list for PBXNativeTarget "DDTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D5F920269A61B100BBD76F /* Debug */,
+				B6D5F921269A61B100BBD76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D5F922269A61B100BBD76F /* Build configuration list for PBXNativeTarget "DDTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D5F923269A61B100BBD76F /* Debug */,
+				B6D5F924269A61B100BBD76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D5F925269A61B100BBD76F /* Build configuration list for PBXNativeTarget "DDTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D5F926269A61B100BBD76F /* Debug */,
+				B6D5F927269A61B100BBD76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6D5F8E8269A61AF00BBD76F /* Project object */;
+}
