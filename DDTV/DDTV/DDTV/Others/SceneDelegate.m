@@ -30,6 +30,8 @@
     //显示window
     [self.window makeKeyAndVisible];
     
+
+    
 }
 
 

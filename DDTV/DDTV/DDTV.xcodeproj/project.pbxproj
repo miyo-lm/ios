@@ -21,6 +21,12 @@
 		B6D5FAE2269A8B6B00BBD76F /* VIP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FAE1269A8B6B00BBD76F /* VIP.storyboard */; };
 		B6D5FAE5269A8E0C00BBD76F /* DDTVTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FAE4269A8E0C00BBD76F /* DDTVTabBarView.m */; };
 		B6D5FAE7269AB32F00BBD76F /* icon in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FAE6269AB32F00BBD76F /* icon */; };
+		B6D5FAF4269B6D8000BBD76F /* DDTVActiveHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FAF3269B6D8000BBD76F /* DDTVActiveHeadView.m */; };
+		B6D5FAF8269B6E0700BBD76F /* DDTVNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FAF7269B6E0700BBD76F /* DDTVNavigationController.m */; };
+		B6D5FAFB269B6EA600BBD76F /* DDTVFristHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FAFA269B6EA600BBD76F /* DDTVFristHeadView.m */; };
+		B6D5FAFE269B6F6500BBD76F /* UIView+DDTVView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FAFD269B6F6500BBD76F /* UIView+DDTVView.m */; };
+		B6D5FB05269B740900BBD76F /* DDTVFristViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FB04269B740900BBD76F /* DDTVFristViewController.m */; };
+		B6D5FB08269B756E00BBD76F /* DDTVFristScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FB07269B756E00BBD76F /* DDTVFristScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +71,19 @@
 		B6D5FAE3269A8E0C00BBD76F /* DDTVTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTVTabBarView.h; sourceTree = "<group>"; };
 		B6D5FAE4269A8E0C00BBD76F /* DDTVTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVTabBarView.m; sourceTree = "<group>"; };
 		B6D5FAE6269AB32F00BBD76F /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
+		B6D5FAF2269B6D8000BBD76F /* DDTVActiveHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTVActiveHeadView.h; sourceTree = "<group>"; };
+		B6D5FAF3269B6D8000BBD76F /* DDTVActiveHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVActiveHeadView.m; sourceTree = "<group>"; };
+		B6D5FAF6269B6E0700BBD76F /* DDTVNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTVNavigationController.h; sourceTree = "<group>"; };
+		B6D5FAF7269B6E0700BBD76F /* DDTVNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVNavigationController.m; sourceTree = "<group>"; };
+		B6D5FAF9269B6EA600BBD76F /* DDTVFristHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTVFristHeadView.h; sourceTree = "<group>"; };
+		B6D5FAFA269B6EA600BBD76F /* DDTVFristHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVFristHeadView.m; sourceTree = "<group>"; };
+		B6D5FAFC269B6F6500BBD76F /* UIView+DDTVView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DDTVView.h"; sourceTree = "<group>"; };
+		B6D5FAFD269B6F6500BBD76F /* UIView+DDTVView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDTVView.m"; sourceTree = "<group>"; };
+		B6D5FAFF269B6FB100BBD76F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B6D5FB03269B740900BBD76F /* DDTVFristViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTVFristViewController.h; sourceTree = "<group>"; };
+		B6D5FB04269B740900BBD76F /* DDTVFristViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVFristViewController.m; sourceTree = "<group>"; };
+		B6D5FB06269B756E00BBD76F /* DDTVFristScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTVFristScrollView.h; sourceTree = "<group>"; };
+		B6D5FB07269B756E00BBD76F /* DDTVFristScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVFristScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +134,7 @@
 		B6D5FA7A269A877700BBD76F /* DDTV */ = {
 			isa = PBXGroup;
 			children = (
+				B6D5FAF5269B6DE900BBD76F /* Common */,
 				B6D5FAE6269AB32F00BBD76F /* icon */,
 				B6D5FAB6269A88A400BBD76F /* Classes */,
 				B6D5FAD0269A88A400BBD76F /* Libs */,
@@ -193,6 +213,8 @@
 			isa = PBXGroup;
 			children = (
 				B6D5FADD269A8B3B00BBD76F /* ActivePage.storyboard */,
+				B6D5FAF2269B6D8000BBD76F /* DDTVActiveHeadView.h */,
+				B6D5FAF3269B6D8000BBD76F /* DDTVActiveHeadView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -258,6 +280,8 @@
 		B6D5FAC3269A88A400BBD76F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B6D5FB03269B740900BBD76F /* DDTVFristViewController.h */,
+				B6D5FB04269B740900BBD76F /* DDTVFristViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -273,6 +297,10 @@
 			isa = PBXGroup;
 			children = (
 				B6D5FADB269A8A8500BBD76F /* FristPage.storyboard */,
+				B6D5FAF9269B6EA600BBD76F /* DDTVFristHeadView.h */,
+				B6D5FAFA269B6EA600BBD76F /* DDTVFristHeadView.m */,
+				B6D5FB06269B756E00BBD76F /* DDTVFristScrollView.h */,
+				B6D5FB07269B756E00BBD76F /* DDTVFristScrollView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -374,8 +402,20 @@
 				B6D5FAD3269A88A400BBD76F /* SceneDelegate.m */,
 				B6D5FAD4269A88A400BBD76F /* AppDelegate.m */,
 				B6D5FAD5269A88A400BBD76F /* SceneDelegate.h */,
+				B6D5FAFC269B6F6500BBD76F /* UIView+DDTVView.h */,
+				B6D5FAFD269B6F6500BBD76F /* UIView+DDTVView.m */,
+				B6D5FAFF269B6FB100BBD76F /* PrefixHeader.pch */,
 			);
 			path = Others;
+			sourceTree = "<group>";
+		};
+		B6D5FAF5269B6DE900BBD76F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5FAF6269B6E0700BBD76F /* DDTVNavigationController.h */,
+				B6D5FAF7269B6E0700BBD76F /* DDTVNavigationController.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -512,11 +552,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D5FAF4269B6D8000BBD76F /* DDTVActiveHeadView.m in Sources */,
 				B6D5FAD7269A88A400BBD76F /* AppDelegate.m in Sources */,
 				B6D5FAD6269A88A400BBD76F /* SceneDelegate.m in Sources */,
 				B6D5FAE5269A8E0C00BBD76F /* DDTVTabBarView.m in Sources */,
 				B6D5FA8E269A877900BBD76F /* main.m in Sources */,
+				B6D5FB05269B740900BBD76F /* DDTVFristViewController.m in Sources */,
+				B6D5FB08269B756E00BBD76F /* DDTVFristScrollView.m in Sources */,
+				B6D5FAFB269B6EA600BBD76F /* DDTVFristHeadView.m in Sources */,
 				B6D5FADA269A8A2100BBD76F /* DDTVTabBarController.m in Sources */,
+				B6D5FAF8269B6E0700BBD76F /* DDTVNavigationController.m in Sources */,
+				B6D5FAFE269B6F6500BBD76F /* UIView+DDTVView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,6 +728,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KQ3RSC4333;
+				GCC_PREFIX_HEADER = DDTV/Others/PrefixHeader.pch;
 				INFOPLIST_FILE = DDTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -700,6 +747,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KQ3RSC4333;
+				GCC_PREFIX_HEADER = DDTV/Others/PrefixHeader.pch;
 				INFOPLIST_FILE = DDTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

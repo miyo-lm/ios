@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+
     //获取sb中的Controller
     UIViewController *FristPageController = [self loadSubViewControllerWithSBName:@"FristPage"];
     UIViewController *ActivePageController = [self loadSubViewControllerWithSBName:@"ActivePage"];
@@ -38,20 +38,12 @@
     
     [self.tabBar addSubview:tabBar];
     
-//    CGFloat x = self.tabBar.frame.origin.x;
-//    CGFloat y = self.tabBar.frame.origin.y;
-//    CGFloat w = self.tabBar.frame.size.width;
-//    CGFloat h = self.tabBar.frame.size.height;
-    
-    
-//    tabBar.frame = CGRectMake(0, 0, self.tabBar.frame.size.width, 84);
-    
-//    tabBar.frame = CGRectMake(x, y - 34, w, h + 34);
-    
-//    [tabBar setBackgroundColor:[UIColor redColor]];
-    
+
     //设置tabBar的背景
     [tabBar setBGImg:[UIImage imageNamed:@"bg_title_bar"]];
+
+
+    
     
     //添加自定义tabBar到自己的tabBar上
     
@@ -59,8 +51,8 @@
     
 //    [self.view addSubview:tabBar];
     
-    NSLog(@"tabBar:%@",NSStringFromCGRect(self.tabBar.frame));
-    NSLog(@"view:%@",NSStringFromCGRect(tabBar.frame));
+//    NSLog(@"tabBar:%@",NSStringFromCGRect(self.tabBar.frame));
+//    NSLog(@"view:%@",NSStringFromCGRect(tabBar.frame));
 //    NSLog(@"safe:%@",NSStringFromUIEdgeInsets(self.view.safeAreaInsets));
     
     
@@ -89,9 +81,9 @@
 
 
 
--(BOOL)prefersHomeIndicatorAutoHidden{
-    return YES;
-}
+//-(BOOL)prefersHomeIndicatorAutoHidden{
+//    return YES;
+//}
 
 - (UIViewController *)loadSubViewControllerWithSBName:(NSString *)name{
     UIStoryboard *sb = [UIStoryboard storyboardWithName:name bundle:nil];

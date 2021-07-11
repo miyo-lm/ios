@@ -62,8 +62,9 @@
 
 //设置背景图
 - (void)setBGImg:(UIImage *)img{
-    //将图片绘制到layer上
-    self.layer.contents = (id)img.CGImage;
+    //设置背景图
+//    self.layer.contents = (id)img.CGImage;
+    [[UITabBar appearance] setBackgroundImage:img];
 }
 
 //创建按钮及设置按钮图片

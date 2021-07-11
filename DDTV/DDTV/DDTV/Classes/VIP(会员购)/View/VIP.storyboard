@@ -11,9 +11,8 @@
         <!--Navigation Controller-->
         <scene sceneID="Bg8-Pa-Urn">
             <objects>
-                <navigationController id="LRt-8H-a3B" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="LRt-8H-a3B" customClass="DDTVNavigationController" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8EA-hU-3Vy">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -33,7 +32,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="嘉然3" translatesAutoresizingMaskIntoConstraints="NO" id="UNz-nq-xU0">
-                                <rect key="frame" x="41" y="263" width="324" height="324"/>
+                                <rect key="frame" x="41" y="219" width="324" height="368"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7WS-Js-zi4"/>
