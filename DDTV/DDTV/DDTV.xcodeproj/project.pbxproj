@@ -7,64 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6D5F900269A61B000BBD76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D5F8FF269A61B000BBD76F /* Assets.xcassets */; };
-		B6D5F906269A61B000BBD76F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5F905269A61B000BBD76F /* main.m */; };
-		B6D5F910269A61B100BBD76F /* DDTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5F90F269A61B100BBD76F /* DDTVTests.m */; };
-		B6D5F91B269A61B100BBD76F /* DDTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5F91A269A61B100BBD76F /* DDTVUITests.m */; };
-		B6D5F98D269A651300BBD76F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5F98A269A651300BBD76F /* SceneDelegate.m */; };
-		B6D5F98E269A651300BBD76F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5F98B269A651300BBD76F /* AppDelegate.m */; };
+		B6D5FA88269A877900BBD76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FA87269A877900BBD76F /* Assets.xcassets */; };
+		B6D5FA8B269A877900BBD76F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FA89269A877900BBD76F /* LaunchScreen.storyboard */; };
+		B6D5FA8E269A877900BBD76F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FA8D269A877900BBD76F /* main.m */; };
+		B6D5FA98269A877900BBD76F /* DDTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FA97269A877900BBD76F /* DDTVTests.m */; };
+		B6D5FAA3269A877900BBD76F /* DDTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FAA2269A877900BBD76F /* DDTVUITests.m */; };
+		B6D5FAD6269A88A400BBD76F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FAD3269A88A400BBD76F /* SceneDelegate.m */; };
+		B6D5FAD7269A88A400BBD76F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FAD4269A88A400BBD76F /* AppDelegate.m */; };
+		B6D5FADA269A8A2100BBD76F /* DDTVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FAD9269A8A2100BBD76F /* DDTVTabBarController.m */; };
+		B6D5FADC269A8A8500BBD76F /* FristPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FADB269A8A8500BBD76F /* FristPage.storyboard */; };
+		B6D5FADE269A8B3B00BBD76F /* ActivePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FADD269A8B3B00BBD76F /* ActivePage.storyboard */; };
+		B6D5FAE0269A8B5C00BBD76F /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FADF269A8B5C00BBD76F /* MyPage.storyboard */; };
+		B6D5FAE2269A8B6B00BBD76F /* VIP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FAE1269A8B6B00BBD76F /* VIP.storyboard */; };
+		B6D5FAE5269A8E0C00BBD76F /* DDTVTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FAE4269A8E0C00BBD76F /* DDTVTabBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B6D5F90C269A61B100BBD76F /* PBXContainerItemProxy */ = {
+		B6D5FA94269A877900BBD76F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B6D5F8E8269A61AF00BBD76F /* Project object */;
+			containerPortal = B6D5FA70269A877700BBD76F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B6D5F8EF269A61AF00BBD76F;
+			remoteGlobalIDString = B6D5FA77269A877700BBD76F;
 			remoteInfo = DDTV;
 		};
-		B6D5F917269A61B100BBD76F /* PBXContainerItemProxy */ = {
+		B6D5FA9F269A877900BBD76F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B6D5F8E8269A61AF00BBD76F /* Project object */;
+			containerPortal = B6D5FA70269A877700BBD76F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B6D5F8EF269A61AF00BBD76F;
+			remoteGlobalIDString = B6D5FA77269A877700BBD76F;
 			remoteInfo = DDTV;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B6D5F8F0269A61AF00BBD76F /* DDTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6D5F8FF269A61B000BBD76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B6D5F904269A61B000BBD76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6D5F905269A61B000BBD76F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B6D5F90B269A61B100BBD76F /* DDTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6D5F90F269A61B100BBD76F /* DDTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVTests.m; sourceTree = "<group>"; };
-		B6D5F911269A61B100BBD76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6D5F916269A61B100BBD76F /* DDTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6D5F91A269A61B100BBD76F /* DDTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVUITests.m; sourceTree = "<group>"; };
-		B6D5F91C269A61B100BBD76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6D5F989269A651300BBD76F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B6D5F98A269A651300BBD76F /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		B6D5F98B269A651300BBD76F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B6D5F98C269A651300BBD76F /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B6D5FA78269A877700BBD76F /* DDTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D5FA87269A877900BBD76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6D5FA8A269A877900BBD76F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6D5FA8C269A877900BBD76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D5FA8D269A877900BBD76F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6D5FA93269A877900BBD76F /* DDTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D5FA97269A877900BBD76F /* DDTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVTests.m; sourceTree = "<group>"; };
+		B6D5FA99269A877900BBD76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D5FA9E269A877900BBD76F /* DDTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D5FAA2269A877900BBD76F /* DDTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVUITests.m; sourceTree = "<group>"; };
+		B6D5FAA4269A877900BBD76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D5FAD2269A88A400BBD76F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6D5FAD3269A88A400BBD76F /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B6D5FAD4269A88A400BBD76F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6D5FAD5269A88A400BBD76F /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B6D5FAD8269A8A2100BBD76F /* DDTVTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTVTabBarController.h; sourceTree = "<group>"; };
+		B6D5FAD9269A8A2100BBD76F /* DDTVTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVTabBarController.m; sourceTree = "<group>"; };
+		B6D5FADB269A8A8500BBD76F /* FristPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FristPage.storyboard; sourceTree = "<group>"; };
+		B6D5FADD269A8B3B00BBD76F /* ActivePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ActivePage.storyboard; sourceTree = "<group>"; };
+		B6D5FADF269A8B5C00BBD76F /* MyPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
+		B6D5FAE1269A8B6B00BBD76F /* VIP.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VIP.storyboard; sourceTree = "<group>"; };
+		B6D5FAE3269A8E0C00BBD76F /* DDTVTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTVTabBarView.h; sourceTree = "<group>"; };
+		B6D5FAE4269A8E0C00BBD76F /* DDTVTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVTabBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B6D5F8ED269A61AF00BBD76F /* Frameworks */ = {
+		B6D5FA75269A877700BBD76F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6D5F908269A61B100BBD76F /* Frameworks */ = {
+		B6D5FA90269A877900BBD76F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6D5F913269A61B100BBD76F /* Frameworks */ = {
+		B6D5FA9B269A877900BBD76F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,292 +90,301 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B6D5F8E7269A61AF00BBD76F = {
+		B6D5FA6F269A877700BBD76F = {
 			isa = PBXGroup;
 			children = (
-				B6D5F8F2269A61AF00BBD76F /* DDTV */,
-				B6D5F90E269A61B100BBD76F /* DDTVTests */,
-				B6D5F919269A61B100BBD76F /* DDTVUITests */,
-				B6D5F8F1269A61AF00BBD76F /* Products */,
+				B6D5FA7A269A877700BBD76F /* DDTV */,
+				B6D5FA96269A877900BBD76F /* DDTVTests */,
+				B6D5FAA1269A877900BBD76F /* DDTVUITests */,
+				B6D5FA79269A877700BBD76F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B6D5F8F1269A61AF00BBD76F /* Products */ = {
+		B6D5FA79269A877700BBD76F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6D5F8F0269A61AF00BBD76F /* DDTV.app */,
-				B6D5F90B269A61B100BBD76F /* DDTVTests.xctest */,
-				B6D5F916269A61B100BBD76F /* DDTVUITests.xctest */,
+				B6D5FA78269A877700BBD76F /* DDTV.app */,
+				B6D5FA93269A877900BBD76F /* DDTVTests.xctest */,
+				B6D5FA9E269A877900BBD76F /* DDTVUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B6D5F8F2269A61AF00BBD76F /* DDTV */ = {
+		B6D5FA7A269A877700BBD76F /* DDTV */ = {
 			isa = PBXGroup;
 			children = (
-				B6D5F96E269A651300BBD76F /* Classes */,
-				B6D5F988269A651300BBD76F /* Libs */,
-				B6D5F96D269A651300BBD76F /* Others */,
-				B6D5F8FF269A61B000BBD76F /* Assets.xcassets */,
-				B6D5F904269A61B000BBD76F /* Info.plist */,
-				B6D5F905269A61B000BBD76F /* main.m */,
+				B6D5FAB6269A88A400BBD76F /* Classes */,
+				B6D5FAD0269A88A400BBD76F /* Libs */,
+				B6D5FAD1269A88A400BBD76F /* Others */,
+				B6D5FA87269A877900BBD76F /* Assets.xcassets */,
+				B6D5FA89269A877900BBD76F /* LaunchScreen.storyboard */,
+				B6D5FA8C269A877900BBD76F /* Info.plist */,
+				B6D5FA8D269A877900BBD76F /* main.m */,
 			);
 			path = DDTV;
 			sourceTree = "<group>";
 		};
-		B6D5F90E269A61B100BBD76F /* DDTVTests */ = {
+		B6D5FA96269A877900BBD76F /* DDTVTests */ = {
 			isa = PBXGroup;
 			children = (
-				B6D5F90F269A61B100BBD76F /* DDTVTests.m */,
-				B6D5F911269A61B100BBD76F /* Info.plist */,
+				B6D5FA97269A877900BBD76F /* DDTVTests.m */,
+				B6D5FA99269A877900BBD76F /* Info.plist */,
 			);
 			path = DDTVTests;
 			sourceTree = "<group>";
 		};
-		B6D5F919269A61B100BBD76F /* DDTVUITests */ = {
+		B6D5FAA1269A877900BBD76F /* DDTVUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B6D5F91A269A61B100BBD76F /* DDTVUITests.m */,
-				B6D5F91C269A61B100BBD76F /* Info.plist */,
+				B6D5FAA2269A877900BBD76F /* DDTVUITests.m */,
+				B6D5FAA4269A877900BBD76F /* Info.plist */,
 			);
 			path = DDTVUITests;
 			sourceTree = "<group>";
 		};
-		B6D5F96D269A651300BBD76F /* Others */ = {
+		B6D5FAB6269A88A400BBD76F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Others;
-			sourceTree = "<group>";
-		};
-		B6D5F96E269A651300BBD76F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B6D5F96F269A651300BBD76F /* MyPage(我的) */,
-				B6D5F974269A651300BBD76F /* AdjectivePage(动态) */,
-				B6D5F979269A651300BBD76F /* FristPage(首页) */,
-				B6D5F97E269A651300BBD76F /* VIP(会员购) */,
-				B6D5F983269A651300BBD76F /* RootFrame(主框架) */,
+				B6D5FAB7269A88A400BBD76F /* ActivePage(动态) */,
+				B6D5FABC269A88A400BBD76F /* MyPage(我的) */,
+				B6D5FAC1269A88A400BBD76F /* FristPage(首页) */,
+				B6D5FAC6269A88A400BBD76F /* VIP(会员购) */,
+				B6D5FACB269A88A400BBD76F /* RootFrame(主框架) */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		B6D5F96F269A651300BBD76F /* MyPage(我的) */ = {
+		B6D5FAB7269A88A400BBD76F /* ActivePage(动态) */ = {
 			isa = PBXGroup;
 			children = (
-				B6D5F970269A651300BBD76F /* Other */,
-				B6D5F971269A651300BBD76F /* Controller */,
-				B6D5F972269A651300BBD76F /* Model */,
-				B6D5F973269A651300BBD76F /* View */,
+				B6D5FAB8269A88A400BBD76F /* Other */,
+				B6D5FAB9269A88A400BBD76F /* Controller */,
+				B6D5FABA269A88A400BBD76F /* Model */,
+				B6D5FABB269A88A400BBD76F /* View */,
+			);
+			path = "ActivePage(动态)";
+			sourceTree = "<group>";
+		};
+		B6D5FAB8269A88A400BBD76F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B6D5FAB9269A88A400BBD76F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B6D5FABA269A88A400BBD76F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6D5FABB269A88A400BBD76F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5FADD269A8B3B00BBD76F /* ActivePage.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6D5FABC269A88A400BBD76F /* MyPage(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5FABD269A88A400BBD76F /* Other */,
+				B6D5FABE269A88A400BBD76F /* Controller */,
+				B6D5FABF269A88A400BBD76F /* Model */,
+				B6D5FAC0269A88A400BBD76F /* View */,
 			);
 			path = "MyPage(我的)";
 			sourceTree = "<group>";
 		};
-		B6D5F970269A651300BBD76F /* Other */ = {
+		B6D5FABD269A88A400BBD76F /* Other */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Other;
 			sourceTree = "<group>";
 		};
-		B6D5F971269A651300BBD76F /* Controller */ = {
+		B6D5FABE269A88A400BBD76F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		B6D5F972269A651300BBD76F /* Model */ = {
+		B6D5FABF269A88A400BBD76F /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B6D5F973269A651300BBD76F /* View */ = {
+		B6D5FAC0269A88A400BBD76F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B6D5FADF269A8B5C00BBD76F /* MyPage.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		B6D5F974269A651300BBD76F /* AdjectivePage(动态) */ = {
+		B6D5FAC1269A88A400BBD76F /* FristPage(首页) */ = {
 			isa = PBXGroup;
 			children = (
-				B6D5F975269A651300BBD76F /* Other */,
-				B6D5F976269A651300BBD76F /* Controller */,
-				B6D5F977269A651300BBD76F /* Model */,
-				B6D5F978269A651300BBD76F /* View */,
-			);
-			path = "AdjectivePage(动态)";
-			sourceTree = "<group>";
-		};
-		B6D5F975269A651300BBD76F /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		B6D5F976269A651300BBD76F /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		B6D5F977269A651300BBD76F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B6D5F978269A651300BBD76F /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B6D5F979269A651300BBD76F /* FristPage(首页) */ = {
-			isa = PBXGroup;
-			children = (
-				B6D5F97A269A651300BBD76F /* Other */,
-				B6D5F97B269A651300BBD76F /* Controller */,
-				B6D5F97C269A651300BBD76F /* Model */,
-				B6D5F97D269A651300BBD76F /* View */,
+				B6D5FAC2269A88A400BBD76F /* Other */,
+				B6D5FAC3269A88A400BBD76F /* Controller */,
+				B6D5FAC4269A88A400BBD76F /* Model */,
+				B6D5FAC5269A88A400BBD76F /* View */,
 			);
 			path = "FristPage(首页)";
 			sourceTree = "<group>";
 		};
-		B6D5F97A269A651300BBD76F /* Other */ = {
+		B6D5FAC2269A88A400BBD76F /* Other */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Other;
 			sourceTree = "<group>";
 		};
-		B6D5F97B269A651300BBD76F /* Controller */ = {
+		B6D5FAC3269A88A400BBD76F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		B6D5F97C269A651300BBD76F /* Model */ = {
+		B6D5FAC4269A88A400BBD76F /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B6D5F97D269A651300BBD76F /* View */ = {
+		B6D5FAC5269A88A400BBD76F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B6D5FADB269A8A8500BBD76F /* FristPage.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		B6D5F97E269A651300BBD76F /* VIP(会员购) */ = {
+		B6D5FAC6269A88A400BBD76F /* VIP(会员购) */ = {
 			isa = PBXGroup;
 			children = (
-				B6D5F97F269A651300BBD76F /* Other */,
-				B6D5F980269A651300BBD76F /* Controller */,
-				B6D5F981269A651300BBD76F /* Model */,
-				B6D5F982269A651300BBD76F /* View */,
+				B6D5FAC7269A88A400BBD76F /* Other */,
+				B6D5FAC8269A88A400BBD76F /* Controller */,
+				B6D5FAC9269A88A400BBD76F /* Model */,
+				B6D5FACA269A88A400BBD76F /* View */,
 			);
 			path = "VIP(会员购)";
 			sourceTree = "<group>";
 		};
-		B6D5F97F269A651300BBD76F /* Other */ = {
+		B6D5FAC7269A88A400BBD76F /* Other */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Other;
 			sourceTree = "<group>";
 		};
-		B6D5F980269A651300BBD76F /* Controller */ = {
+		B6D5FAC8269A88A400BBD76F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		B6D5F981269A651300BBD76F /* Model */ = {
+		B6D5FAC9269A88A400BBD76F /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B6D5F982269A651300BBD76F /* View */ = {
+		B6D5FACA269A88A400BBD76F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B6D5FAE1269A8B6B00BBD76F /* VIP.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		B6D5F983269A651300BBD76F /* RootFrame(主框架) */ = {
+		B6D5FACB269A88A400BBD76F /* RootFrame(主框架) */ = {
 			isa = PBXGroup;
 			children = (
-				B6D5F984269A651300BBD76F /* Other */,
-				B6D5F985269A651300BBD76F /* Controller */,
-				B6D5F986269A651300BBD76F /* Model */,
-				B6D5F987269A651300BBD76F /* View */,
+				B6D5FACC269A88A400BBD76F /* Other */,
+				B6D5FACD269A88A400BBD76F /* Controller */,
+				B6D5FACE269A88A400BBD76F /* Model */,
+				B6D5FACF269A88A400BBD76F /* View */,
 			);
 			path = "RootFrame(主框架)";
 			sourceTree = "<group>";
 		};
-		B6D5F984269A651300BBD76F /* Other */ = {
+		B6D5FACC269A88A400BBD76F /* Other */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Other;
 			sourceTree = "<group>";
 		};
-		B6D5F985269A651300BBD76F /* Controller */ = {
+		B6D5FACD269A88A400BBD76F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B6D5FAD8269A8A2100BBD76F /* DDTVTabBarController.h */,
+				B6D5FAD9269A8A2100BBD76F /* DDTVTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		B6D5F986269A651300BBD76F /* Model */ = {
+		B6D5FACE269A88A400BBD76F /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B6D5F987269A651300BBD76F /* View */ = {
+		B6D5FACF269A88A400BBD76F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B6D5FAE3269A8E0C00BBD76F /* DDTVTabBarView.h */,
+				B6D5FAE4269A8E0C00BBD76F /* DDTVTabBarView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		B6D5F988269A651300BBD76F /* Libs */ = {
+		B6D5FAD0269A88A400BBD76F /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				B6D5F989269A651300BBD76F /* AppDelegate.h */,
-				B6D5F98A269A651300BBD76F /* SceneDelegate.m */,
-				B6D5F98B269A651300BBD76F /* AppDelegate.m */,
-				B6D5F98C269A651300BBD76F /* SceneDelegate.h */,
 			);
 			path = Libs;
+			sourceTree = "<group>";
+		};
+		B6D5FAD1269A88A400BBD76F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5FAD2269A88A400BBD76F /* AppDelegate.h */,
+				B6D5FAD3269A88A400BBD76F /* SceneDelegate.m */,
+				B6D5FAD4269A88A400BBD76F /* AppDelegate.m */,
+				B6D5FAD5269A88A400BBD76F /* SceneDelegate.h */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B6D5F8EF269A61AF00BBD76F /* DDTV */ = {
+		B6D5FA77269A877700BBD76F /* DDTV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6D5F91F269A61B100BBD76F /* Build configuration list for PBXNativeTarget "DDTV" */;
+			buildConfigurationList = B6D5FAA7269A877900BBD76F /* Build configuration list for PBXNativeTarget "DDTV" */;
 			buildPhases = (
-				B6D5F8EC269A61AF00BBD76F /* Sources */,
-				B6D5F8ED269A61AF00BBD76F /* Frameworks */,
-				B6D5F8EE269A61AF00BBD76F /* Resources */,
+				B6D5FA74269A877700BBD76F /* Sources */,
+				B6D5FA75269A877700BBD76F /* Frameworks */,
+				B6D5FA76269A877700BBD76F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -367,68 +392,68 @@
 			);
 			name = DDTV;
 			productName = DDTV;
-			productReference = B6D5F8F0269A61AF00BBD76F /* DDTV.app */;
+			productReference = B6D5FA78269A877700BBD76F /* DDTV.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B6D5F90A269A61B100BBD76F /* DDTVTests */ = {
+		B6D5FA92269A877900BBD76F /* DDTVTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6D5F922269A61B100BBD76F /* Build configuration list for PBXNativeTarget "DDTVTests" */;
+			buildConfigurationList = B6D5FAAA269A877900BBD76F /* Build configuration list for PBXNativeTarget "DDTVTests" */;
 			buildPhases = (
-				B6D5F907269A61B100BBD76F /* Sources */,
-				B6D5F908269A61B100BBD76F /* Frameworks */,
-				B6D5F909269A61B100BBD76F /* Resources */,
+				B6D5FA8F269A877900BBD76F /* Sources */,
+				B6D5FA90269A877900BBD76F /* Frameworks */,
+				B6D5FA91269A877900BBD76F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B6D5F90D269A61B100BBD76F /* PBXTargetDependency */,
+				B6D5FA95269A877900BBD76F /* PBXTargetDependency */,
 			);
 			name = DDTVTests;
 			productName = DDTVTests;
-			productReference = B6D5F90B269A61B100BBD76F /* DDTVTests.xctest */;
+			productReference = B6D5FA93269A877900BBD76F /* DDTVTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B6D5F915269A61B100BBD76F /* DDTVUITests */ = {
+		B6D5FA9D269A877900BBD76F /* DDTVUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6D5F925269A61B100BBD76F /* Build configuration list for PBXNativeTarget "DDTVUITests" */;
+			buildConfigurationList = B6D5FAAD269A877900BBD76F /* Build configuration list for PBXNativeTarget "DDTVUITests" */;
 			buildPhases = (
-				B6D5F912269A61B100BBD76F /* Sources */,
-				B6D5F913269A61B100BBD76F /* Frameworks */,
-				B6D5F914269A61B100BBD76F /* Resources */,
+				B6D5FA9A269A877900BBD76F /* Sources */,
+				B6D5FA9B269A877900BBD76F /* Frameworks */,
+				B6D5FA9C269A877900BBD76F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B6D5F918269A61B100BBD76F /* PBXTargetDependency */,
+				B6D5FAA0269A877900BBD76F /* PBXTargetDependency */,
 			);
 			name = DDTVUITests;
 			productName = DDTVUITests;
-			productReference = B6D5F916269A61B100BBD76F /* DDTVUITests.xctest */;
+			productReference = B6D5FA9E269A877900BBD76F /* DDTVUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B6D5F8E8269A61AF00BBD76F /* Project object */ = {
+		B6D5FA70269A877700BBD76F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DDTV;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					B6D5F8EF269A61AF00BBD76F = {
+					B6D5FA77269A877700BBD76F = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					B6D5F90A269A61B100BBD76F = {
+					B6D5FA92269A877900BBD76F = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = B6D5F8EF269A61AF00BBD76F;
+						TestTargetID = B6D5FA77269A877700BBD76F;
 					};
-					B6D5F915269A61B100BBD76F = {
+					B6D5FA9D269A877900BBD76F = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = B6D5F8EF269A61AF00BBD76F;
+						TestTargetID = B6D5FA77269A877700BBD76F;
 					};
 				};
 			};
-			buildConfigurationList = B6D5F8EB269A61AF00BBD76F /* Build configuration list for PBXProject "DDTV" */;
+			buildConfigurationList = B6D5FA73269A877700BBD76F /* Build configuration list for PBXProject "DDTV" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -436,35 +461,40 @@
 				en,
 				Base,
 			);
-			mainGroup = B6D5F8E7269A61AF00BBD76F;
-			productRefGroup = B6D5F8F1269A61AF00BBD76F /* Products */;
+			mainGroup = B6D5FA6F269A877700BBD76F;
+			productRefGroup = B6D5FA79269A877700BBD76F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B6D5F8EF269A61AF00BBD76F /* DDTV */,
-				B6D5F90A269A61B100BBD76F /* DDTVTests */,
-				B6D5F915269A61B100BBD76F /* DDTVUITests */,
+				B6D5FA77269A877700BBD76F /* DDTV */,
+				B6D5FA92269A877900BBD76F /* DDTVTests */,
+				B6D5FA9D269A877900BBD76F /* DDTVUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B6D5F8EE269A61AF00BBD76F /* Resources */ = {
+		B6D5FA76269A877700BBD76F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D5F900269A61B000BBD76F /* Assets.xcassets in Resources */,
+				B6D5FA8B269A877900BBD76F /* LaunchScreen.storyboard in Resources */,
+				B6D5FAE0269A8B5C00BBD76F /* MyPage.storyboard in Resources */,
+				B6D5FADE269A8B3B00BBD76F /* ActivePage.storyboard in Resources */,
+				B6D5FA88269A877900BBD76F /* Assets.xcassets in Resources */,
+				B6D5FAE2269A8B6B00BBD76F /* VIP.storyboard in Resources */,
+				B6D5FADC269A8A8500BBD76F /* FristPage.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6D5F909269A61B100BBD76F /* Resources */ = {
+		B6D5FA91269A877900BBD76F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6D5F914269A61B100BBD76F /* Resources */ = {
+		B6D5FA9C269A877900BBD76F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -474,49 +504,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B6D5F8EC269A61AF00BBD76F /* Sources */ = {
+		B6D5FA74269A877700BBD76F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D5F906269A61B000BBD76F /* main.m in Sources */,
-				B6D5F98D269A651300BBD76F /* SceneDelegate.m in Sources */,
-				B6D5F98E269A651300BBD76F /* AppDelegate.m in Sources */,
+				B6D5FAD7269A88A400BBD76F /* AppDelegate.m in Sources */,
+				B6D5FAD6269A88A400BBD76F /* SceneDelegate.m in Sources */,
+				B6D5FAE5269A8E0C00BBD76F /* DDTVTabBarView.m in Sources */,
+				B6D5FA8E269A877900BBD76F /* main.m in Sources */,
+				B6D5FADA269A8A2100BBD76F /* DDTVTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6D5F907269A61B100BBD76F /* Sources */ = {
+		B6D5FA8F269A877900BBD76F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D5F910269A61B100BBD76F /* DDTVTests.m in Sources */,
+				B6D5FA98269A877900BBD76F /* DDTVTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6D5F912269A61B100BBD76F /* Sources */ = {
+		B6D5FA9A269A877900BBD76F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D5F91B269A61B100BBD76F /* DDTVUITests.m in Sources */,
+				B6D5FAA3269A877900BBD76F /* DDTVUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B6D5F90D269A61B100BBD76F /* PBXTargetDependency */ = {
+		B6D5FA95269A877900BBD76F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B6D5F8EF269A61AF00BBD76F /* DDTV */;
-			targetProxy = B6D5F90C269A61B100BBD76F /* PBXContainerItemProxy */;
+			target = B6D5FA77269A877700BBD76F /* DDTV */;
+			targetProxy = B6D5FA94269A877900BBD76F /* PBXContainerItemProxy */;
 		};
-		B6D5F918269A61B100BBD76F /* PBXTargetDependency */ = {
+		B6D5FAA0269A877900BBD76F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B6D5F8EF269A61AF00BBD76F /* DDTV */;
-			targetProxy = B6D5F917269A61B100BBD76F /* PBXContainerItemProxy */;
+			target = B6D5FA77269A877700BBD76F /* DDTV */;
+			targetProxy = B6D5FA9F269A877900BBD76F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		B6D5FA89269A877900BBD76F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D5FA8A269A877900BBD76F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		B6D5F91D269A61B100BBD76F /* Debug */ = {
+		B6D5FAA5269A877900BBD76F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -567,7 +610,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -575,7 +618,7 @@
 			};
 			name = Debug;
 		};
-		B6D5F91E269A61B100BBD76F /* Release */ = {
+		B6D5FAA6269A877900BBD76F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -620,7 +663,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -628,7 +671,7 @@
 			};
 			name = Release;
 		};
-		B6D5F920269A61B100BBD76F /* Debug */ = {
+		B6D5FAA8269A877900BBD76F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -646,7 +689,7 @@
 			};
 			name = Debug;
 		};
-		B6D5F921269A61B100BBD76F /* Release */ = {
+		B6D5FAA9269A877900BBD76F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -664,7 +707,7 @@
 			};
 			name = Release;
 		};
-		B6D5F923269A61B100BBD76F /* Debug */ = {
+		B6D5FAAB269A877900BBD76F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -684,7 +727,7 @@
 			};
 			name = Debug;
 		};
-		B6D5F924269A61B100BBD76F /* Release */ = {
+		B6D5FAAC269A877900BBD76F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -704,7 +747,7 @@
 			};
 			name = Release;
 		};
-		B6D5F926269A61B100BBD76F /* Debug */ = {
+		B6D5FAAE269A877900BBD76F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -722,7 +765,7 @@
 			};
 			name = Debug;
 		};
-		B6D5F927269A61B100BBD76F /* Release */ = {
+		B6D5FAAF269A877900BBD76F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -743,43 +786,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B6D5F8EB269A61AF00BBD76F /* Build configuration list for PBXProject "DDTV" */ = {
+		B6D5FA73269A877700BBD76F /* Build configuration list for PBXProject "DDTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6D5F91D269A61B100BBD76F /* Debug */,
-				B6D5F91E269A61B100BBD76F /* Release */,
+				B6D5FAA5269A877900BBD76F /* Debug */,
+				B6D5FAA6269A877900BBD76F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6D5F91F269A61B100BBD76F /* Build configuration list for PBXNativeTarget "DDTV" */ = {
+		B6D5FAA7269A877900BBD76F /* Build configuration list for PBXNativeTarget "DDTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6D5F920269A61B100BBD76F /* Debug */,
-				B6D5F921269A61B100BBD76F /* Release */,
+				B6D5FAA8269A877900BBD76F /* Debug */,
+				B6D5FAA9269A877900BBD76F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6D5F922269A61B100BBD76F /* Build configuration list for PBXNativeTarget "DDTVTests" */ = {
+		B6D5FAAA269A877900BBD76F /* Build configuration list for PBXNativeTarget "DDTVTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6D5F923269A61B100BBD76F /* Debug */,
-				B6D5F924269A61B100BBD76F /* Release */,
+				B6D5FAAB269A877900BBD76F /* Debug */,
+				B6D5FAAC269A877900BBD76F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6D5F925269A61B100BBD76F /* Build configuration list for PBXNativeTarget "DDTVUITests" */ = {
+		B6D5FAAD269A877900BBD76F /* Build configuration list for PBXNativeTarget "DDTVUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6D5F926269A61B100BBD76F /* Debug */,
-				B6D5F927269A61B100BBD76F /* Release */,
+				B6D5FAAE269A877900BBD76F /* Debug */,
+				B6D5FAAF269A877900BBD76F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B6D5F8E8269A61AF00BBD76F /* Project object */;
+	rootObject = B6D5FA70269A877700BBD76F /* Project object */;
 }
