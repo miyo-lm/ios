@@ -12,41 +12,24 @@
 
 @property (nonatomic, strong) UIImageView *imgView;
 
+@property (nonatomic, copy)NSString *name;
 @end
 
 @implementation DDTVTabBarView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
-
-//- (void)setBGImg:(UIImage *)img{
-////    self.backgroundColor = [UIColor colorWithPatternImage:img];
-////
-//    self.imgView = [[UIImageView alloc] initWithImage:img];
-//    self.imgView.contentMode = UIViewContentModeScaleAspectFit;
-//    [self addSubview:self.imgView];
-    
-//    self.layer.contents = (id)img.CGImage;
-    
-//    self.backgroundColor = [UIColor greenColor];
-//
-//}
 
 - (void)layoutSubviews{
 //    NSString *path = [[NSBundle mainBundle] pathForResource:@"海滩" ofType:@"png" inDirectory:@"icon"];
 //    UIImage *img = [UIImage imageWithContentsOfFile:path];
+    
+    
 
 //    self.imgView = [[UIImageView alloc] initWithImage:img];
 //    self.imgView.frame = CGRectMake(0, -96, self.frame.size.width, self.frame.size.height);
 //    self.imgView.contentMode = UIViewContentModeScaleAspectFill;
 //    [self addSubview:self.imgView];
     
-//    self.layer.contents = (id)img.CGImage;
+    
 
     
     
@@ -61,19 +44,29 @@
         
         btn.tag = i;
         
-        
+        [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchDown];
         
     }
     
     
 }
 
+//按钮点击事件
 - (void)btnClick:(UIButton *)sender{
-    
+    //如果自己的block存在
+    if (self.changeTabBar) {
+        //执行block
+        self.changeTabBar(sender.tag);
+    }
 }
 
+//设置背景图
+- (void)setBGImg:(UIImage *)img{
+    //将图片绘制到layer上
+    self.layer.contents = (id)img.CGImage;
+}
 
-
+//创建按钮及设置按钮图片
 - (void)setBtn:(UIImage *)img{
     //初始化按钮
     UIButton *btn = [[UIButton alloc] init];

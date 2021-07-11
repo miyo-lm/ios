@@ -30,9 +30,39 @@
     //创建tabBar
     DDTVTabBarView *tabBar = [[DDTVTabBarView alloc] init];
     //设置TabBar
-    tabBar.frame = CGRectMake(0, 0, self.tabBar.frame.size.width, 84);
-    [tabBar setBackgroundColor:[UIColor redColor]];
+    
+//    [[UIApplication sharedApplication] accessibilityFrame].size.height;
+    NSLog(@"%@",NSStringFromCGRect([[UIApplication sharedApplication] accessibilityFrame]));
+
+    tabBar.frame = CGRectMake(0, 0, self.tabBar.frame.size.width, self.tabBar.frame.size.height);
+    
     [self.tabBar addSubview:tabBar];
+    
+//    CGFloat x = self.tabBar.frame.origin.x;
+//    CGFloat y = self.tabBar.frame.origin.y;
+//    CGFloat w = self.tabBar.frame.size.width;
+//    CGFloat h = self.tabBar.frame.size.height;
+    
+    
+//    tabBar.frame = CGRectMake(0, 0, self.tabBar.frame.size.width, 84);
+    
+//    tabBar.frame = CGRectMake(x, y - 34, w, h + 34);
+    
+//    [tabBar setBackgroundColor:[UIColor redColor]];
+    
+    //设置tabBar的背景
+    [tabBar setBGImg:[UIImage imageNamed:@"bg_title_bar"]];
+    
+    //添加自定义tabBar到自己的tabBar上
+    
+    
+    
+//    [self.view addSubview:tabBar];
+    
+    NSLog(@"tabBar:%@",NSStringFromCGRect(self.tabBar.frame));
+    NSLog(@"view:%@",NSStringFromCGRect(tabBar.frame));
+//    NSLog(@"safe:%@",NSStringFromUIEdgeInsets(self.view.safeAreaInsets));
+    
     
     //循环创建按钮
     for (int i = 0; i < self.viewControllers.count; i++) {
@@ -40,6 +70,13 @@
         UIImage *img = [UIImage imageNamed:[NSString stringWithFormat:@"嘉然%d",i + 1]];
 
         [tabBar setBtn:img];
+        
+        //设置TabBar的block
+        tabBar.changeTabBar = ^(NSInteger tag){
+            //切换当前页
+            self.selectedIndex = tag;
+        };
+        
         
     }
     

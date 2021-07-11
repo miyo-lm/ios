@@ -11,8 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DDTVTabBarView : UIView
 
+@property (nonatomic, copy) void(^changeTabBar)(NSInteger);
 
 - (void)setBtn:(UIImage *)img;
+- (void)setBGImg:(UIImage *)img;
 
 @end
 

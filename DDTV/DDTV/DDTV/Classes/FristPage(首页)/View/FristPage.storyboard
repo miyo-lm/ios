@@ -32,13 +32,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="嘉然1" translatesAutoresizingMaskIntoConstraints="NO" id="kpl-WT-Qye">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="嘉然1" translatesAutoresizingMaskIntoConstraints="NO" id="kpl-WT-Qye">
                                 <rect key="frame" x="62" y="124" width="324" height="324"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7WS-Js-zi4"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <constraints>
+                            <constraint firstItem="7WS-Js-zi4" firstAttribute="trailing" secondItem="kpl-WT-Qye" secondAttribute="trailing" constant="28" id="Cmr-0e-Nqg"/>
+                            <constraint firstItem="7WS-Js-zi4" firstAttribute="bottom" secondItem="kpl-WT-Qye" secondAttribute="bottom" constant="414" id="D4O-CZ-Fgd"/>
+                            <constraint firstItem="kpl-WT-Qye" firstAttribute="leading" secondItem="7WS-Js-zi4" secondAttribute="leading" constant="62" id="MvC-Fd-5oE"/>
+                            <constraint firstItem="kpl-WT-Qye" firstAttribute="top" secondItem="7WS-Js-zi4" secondAttribute="top" constant="36" id="zW5-hx-KMD"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aJt-5G-xGI"/>
                 </viewController>

@@ -31,8 +31,19 @@
                     <view key="view" contentMode="scaleToFill" id="wqt-MK-2wt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="嘉然3" translatesAutoresizingMaskIntoConstraints="NO" id="UNz-nq-xU0">
+                                <rect key="frame" x="41" y="263" width="324" height="324"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="7WS-Js-zi4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UNz-nq-xU0" firstAttribute="top" secondItem="7WS-Js-zi4" secondAttribute="top" constant="175" id="Bwk-oz-lN0"/>
+                            <constraint firstItem="7WS-Js-zi4" firstAttribute="bottom" secondItem="UNz-nq-xU0" secondAttribute="bottom" constant="275" id="SzV-5f-MO6"/>
+                            <constraint firstItem="UNz-nq-xU0" firstAttribute="leading" secondItem="7WS-Js-zi4" secondAttribute="leading" constant="41" id="jC7-7U-t5A"/>
+                            <constraint firstItem="7WS-Js-zi4" firstAttribute="trailing" secondItem="UNz-nq-xU0" secondAttribute="trailing" constant="49" id="pwl-VO-thR"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aJt-5G-xGI"/>
                 </viewController>
@@ -42,6 +53,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="嘉然3" width="324" height="324"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
