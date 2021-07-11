@@ -11,6 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DDTVTabBarView : UIView
 
+
+- (void)setBtn:(UIImage *)img;
+
 @end
 
 NS_ASSUME_NONNULL_END

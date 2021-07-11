@@ -20,6 +20,7 @@
 		B6D5FAE0269A8B5C00BBD76F /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FADF269A8B5C00BBD76F /* MyPage.storyboard */; };
 		B6D5FAE2269A8B6B00BBD76F /* VIP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FAE1269A8B6B00BBD76F /* VIP.storyboard */; };
 		B6D5FAE5269A8E0C00BBD76F /* DDTVTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FAE4269A8E0C00BBD76F /* DDTVTabBarView.m */; };
+		B6D5FAE7269AB32F00BBD76F /* icon in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FAE6269AB32F00BBD76F /* icon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		B6D5FAE1269A8B6B00BBD76F /* VIP.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VIP.storyboard; sourceTree = "<group>"; };
 		B6D5FAE3269A8E0C00BBD76F /* DDTVTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTVTabBarView.h; sourceTree = "<group>"; };
 		B6D5FAE4269A8E0C00BBD76F /* DDTVTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVTabBarView.m; sourceTree = "<group>"; };
+		B6D5FAE6269AB32F00BBD76F /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		B6D5FA7A269A877700BBD76F /* DDTV */ = {
 			isa = PBXGroup;
 			children = (
+				B6D5FAE6269AB32F00BBD76F /* icon */,
 				B6D5FAB6269A88A400BBD76F /* Classes */,
 				B6D5FAD0269A88A400BBD76F /* Libs */,
 				B6D5FAD1269A88A400BBD76F /* Others */,
@@ -480,6 +483,7 @@
 			files = (
 				B6D5FA8B269A877900BBD76F /* LaunchScreen.storyboard in Resources */,
 				B6D5FAE0269A8B5C00BBD76F /* MyPage.storyboard in Resources */,
+				B6D5FAE7269AB32F00BBD76F /* icon in Resources */,
 				B6D5FADE269A8B3B00BBD76F /* ActivePage.storyboard in Resources */,
 				B6D5FA88269A877900BBD76F /* Assets.xcassets in Resources */,
 				B6D5FAE2269A8B6B00BBD76F /* VIP.storyboard in Resources */,
