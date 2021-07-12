@@ -19,18 +19,6 @@
 
 
 - (void)layoutSubviews{
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"海滩" ofType:@"png" inDirectory:@"icon"];
-//    UIImage *img = [UIImage imageWithContentsOfFile:path];
-    
-    
-
-//    self.imgView = [[UIImageView alloc] initWithImage:img];
-//    self.imgView.frame = CGRectMake(0, -96, self.frame.size.width, self.frame.size.height);
-//    self.imgView.contentMode = UIViewContentModeScaleAspectFill;
-//    [self addSubview:self.imgView];
-    
-    
-
     
     
     //创建butoon

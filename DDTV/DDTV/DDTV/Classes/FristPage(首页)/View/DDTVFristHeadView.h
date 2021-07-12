@@ -11,6 +11,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DDTVFristHeadView : UIView
 
+@property (nonatomic, copy) void(^changePageToMyPage)();
+
+- (void)setIconImg:(UIImage *)img;
+- (void)setGameImg:(UIImage *)img;
+- (void)setNewsImg:(UIImage *)img;
+
 @end
 
 NS_ASSUME_NONNULL_END
