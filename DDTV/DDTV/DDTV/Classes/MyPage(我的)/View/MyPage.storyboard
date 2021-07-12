@@ -23,26 +23,15 @@
             </objects>
             <point key="canvasLocation" x="-539" y="103"/>
         </scene>
-        <!--View Controller-->
+        <!--My Page Controller-->
         <scene sceneID="15z-FN-oG7">
             <objects>
-                <viewController id="mGl-vw-e6G" sceneMemberID="viewController">
+                <viewController id="mGl-vw-e6G" customClass="DDTVMyPageController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wqt-MK-2wt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="嘉然4" translatesAutoresizingMaskIntoConstraints="NO" id="sRO-08-x9i">
-                                <rect key="frame" x="36" y="212" width="324" height="368"/>
-                            </imageView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="7WS-Js-zi4"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                        <constraints>
-                            <constraint firstItem="sRO-08-x9i" firstAttribute="top" secondItem="7WS-Js-zi4" secondAttribute="top" constant="168" id="C0K-2N-iC5"/>
-                            <constraint firstItem="7WS-Js-zi4" firstAttribute="trailing" secondItem="sRO-08-x9i" secondAttribute="trailing" constant="54" id="Qrk-vA-ihX"/>
-                            <constraint firstItem="7WS-Js-zi4" firstAttribute="bottom" secondItem="sRO-08-x9i" secondAttribute="bottom" constant="282" id="fG6-w3-jGj"/>
-                            <constraint firstItem="sRO-08-x9i" firstAttribute="leading" secondItem="7WS-Js-zi4" secondAttribute="leading" constant="36" id="nmT-vO-mU4"/>
-                        </constraints>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="aJt-5G-xGI"/>
                 </viewController>
@@ -52,9 +41,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="嘉然4" width="324" height="324"/>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

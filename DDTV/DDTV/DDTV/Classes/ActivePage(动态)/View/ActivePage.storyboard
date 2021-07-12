@@ -16,43 +16,33 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="mGl-vw-e6G" kind="relationship" relationship="rootViewController" id="nvv-cu-hbo"/>
+                        <segue destination="S87-MD-oVb" kind="relationship" relationship="rootViewController" id="ekQ-vi-PCb"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sae-jr-hEb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-539" y="103"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="15z-FN-oG7">
+        <!--Active Controller-->
+        <scene sceneID="LS5-XA-4SR">
             <objects>
-                <viewController id="mGl-vw-e6G" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wqt-MK-2wt">
+                <viewController id="S87-MD-oVb" customClass="DDTVActiveController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r3S-PS-MGZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="嘉然2" translatesAutoresizingMaskIntoConstraints="NO" id="xVA-jf-zF6">
-                                <rect key="frame" x="34" y="237" width="324" height="324"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="7WS-Js-zi4"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
-                        <constraints>
-                            <constraint firstItem="xVA-jf-zF6" firstAttribute="centerY" secondItem="7WS-Js-zi4" secondAttribute="centerY" id="gvJ-Ce-Wz0"/>
-                            <constraint firstItem="xVA-jf-zF6" firstAttribute="centerX" secondItem="7WS-Js-zi4" secondAttribute="centerX" id="kmJ-fw-cXS"/>
-                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3PO-hz-Z5I"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="aJt-5G-xGI"/>
+                    <navigationItem key="navigationItem" id="cil-wj-wVY"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UDj-Ug-dqk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b6a-Al-XWX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="216" y="106"/>
+            <point key="canvasLocation" x="210" y="102"/>
         </scene>
     </scenes>
     <resources>
-        <image name="嘉然2" width="324" height="324"/>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
