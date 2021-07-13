@@ -6,6 +6,7 @@
 //
 
 #import "DDTVSelfRoomMenuView.h"
+#import "DDTVRoomController.h"
 
 #define userX 60
 #define userY 60
@@ -18,6 +19,7 @@
 @property (nonatomic, strong) UILabel *VIP;
 @property (nonatomic, strong) UILabel *Bcoin;
 @property (nonatomic, strong) UILabel *coin;
+@property (nonatomic, strong) UILabel *room;
 
 
 @end
@@ -33,6 +35,7 @@
     self.VIP = [[UILabel alloc] init];
     self.Bcoin = [[UILabel alloc] init];
     self.coin = [[UILabel alloc] init];
+    self.room = [[UILabel alloc] init];
     
     //添加控件到self
     [self addSubview:self.userIcon];
@@ -40,6 +43,7 @@
     [self addSubview:self.VIP];
     [self addSubview:self.Bcoin];
     [self addSubview:self.coin];
+    [self addSubview:self.room];
     
     
     return self;
@@ -48,6 +52,8 @@
 -(void)layoutSubviews{
     //设置头像frame
     self.userIcon.frame = CGRectMake(self.frame.size.height - userX, self.frame.size.height - userX, userX, userY);
+    //禁用头像的点击
+    self.userIcon.userInteractionEnabled = NO;
     //设置文本frame
     self.userName.frame = CGRectMake(self.frame.size.height + interval, interval * 2, self.userName.bounds.size.width, self.userName.bounds.size.height);
     //设置VIP标识frame
@@ -58,7 +64,10 @@
     self.coin.frame = CGRectMake(self.frame.size.height + interval, coinY, self.coin.bounds.size.width, self.coin.bounds.size.height);
     CGFloat BcoinX = self.frame.size.height + interval * 2 + self.coin.bounds.size.width;
     self.Bcoin.frame = CGRectMake(BcoinX, coinY, self.Bcoin.bounds.size.width, self.Bcoin.bounds.size.height);
-    
+    //设置room的frame
+    CGFloat roomx = self.bounds.size.width - self.room.bounds.size.width - interval;
+    CGFloat roomy = (self.bounds.size.height - self.room.bounds.size.height) * 0.5;
+    self.room.frame = CGRectMake(roomx, roomy, self.room.bounds.size.width, self.room.bounds.size.height);
     
     
     
@@ -98,6 +107,11 @@
     self.coin.font = [UIFont fontWithName:@"AmericanTypewriter" size:14];
     [self setTextSize:self.coin and:self.coin.font];
     
+    //设置room
+    self.room.text = @"空间 >";
+    self.room.font = [UIFont fontWithName:@"AmericanTypewriter" size:15];
+    [self setTextSize:self.room and:self.room.font];
+    
 }
 
 /**
@@ -116,11 +130,14 @@
     //切圆
     self.userIcon.layer.cornerRadius = userX * 0.5;
     self.userIcon.layer.masksToBounds = YES;
+    
 }
 
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
+    if (self.toSelfRoom) {
+        self.toSelfRoom([[DDTVRoomController alloc] init]);
+    }
 }
 
 @end

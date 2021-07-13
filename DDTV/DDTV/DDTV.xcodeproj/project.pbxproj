@@ -39,6 +39,8 @@
 		B6D5FB2C269D217200BBD76F /* UserInfoList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FB2B269D217200BBD76F /* UserInfoList.plist */; };
 		B6D5FB2F269D244600BBD76F /* DDTVSelfRoomMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FB2E269D244600BBD76F /* DDTVSelfRoomMenuView.m */; };
 		B6D5FB31269D434000BBD76F /* MyPageIconList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FB30269D434000BBD76F /* MyPageIconList.plist */; };
+		B6D5FB39269DB4D100BBD76F /* DDTVRoomController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FB38269DB4D100BBD76F /* DDTVRoomController.m */; };
+		B6D5FB3C269DDF4D00BBD76F /* DDTVRoomHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FB3B269DDF4D00BBD76F /* DDTVRoomHeadView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +120,10 @@
 		B6D5FB2D269D244600BBD76F /* DDTVSelfRoomMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTVSelfRoomMenuView.h; sourceTree = "<group>"; };
 		B6D5FB2E269D244600BBD76F /* DDTVSelfRoomMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVSelfRoomMenuView.m; sourceTree = "<group>"; };
 		B6D5FB30269D434000BBD76F /* MyPageIconList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MyPageIconList.plist; sourceTree = "<group>"; };
+		B6D5FB37269DB4D100BBD76F /* DDTVRoomController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTVRoomController.h; sourceTree = "<group>"; };
+		B6D5FB38269DB4D100BBD76F /* DDTVRoomController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVRoomController.m; sourceTree = "<group>"; };
+		B6D5FB3A269DDF4D00BBD76F /* DDTVRoomHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTVRoomHeadView.h; sourceTree = "<group>"; };
+		B6D5FB3B269DDF4D00BBD76F /* DDTVRoomHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVRoomHeadView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +208,7 @@
 		B6D5FAB6269A88A400BBD76F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B6D5FB32269DB4B800BBD76F /* Room(空间） */,
 				B6D5FAB7269A88A400BBD76F /* ActivePage(动态) */,
 				B6D5FABC269A88A400BBD76F /* MyPage(我的) */,
 				B6D5FAC1269A88A400BBD76F /* FristPage(首页) */,
@@ -474,6 +481,49 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		B6D5FB32269DB4B800BBD76F /* Room(空间） */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5FB33269DB4B800BBD76F /* Other */,
+				B6D5FB34269DB4B800BBD76F /* Controller */,
+				B6D5FB35269DB4B800BBD76F /* Model */,
+				B6D5FB36269DB4B800BBD76F /* View */,
+			);
+			path = "Room(空间）";
+			sourceTree = "<group>";
+		};
+		B6D5FB33269DB4B800BBD76F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B6D5FB34269DB4B800BBD76F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5FB37269DB4D100BBD76F /* DDTVRoomController.h */,
+				B6D5FB38269DB4D100BBD76F /* DDTVRoomController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B6D5FB35269DB4B800BBD76F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6D5FB36269DB4B800BBD76F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5FB3A269DDF4D00BBD76F /* DDTVRoomHeadView.h */,
+				B6D5FB3B269DDF4D00BBD76F /* DDTVRoomHeadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -614,6 +664,7 @@
 				B6D5FB2F269D244600BBD76F /* DDTVSelfRoomMenuView.m in Sources */,
 				B6D5FAD7269A88A400BBD76F /* AppDelegate.m in Sources */,
 				B6D5FAD6269A88A400BBD76F /* SceneDelegate.m in Sources */,
+				B6D5FB3C269DDF4D00BBD76F /* DDTVRoomHeadView.m in Sources */,
 				B6D5FB17269CEAB400BBD76F /* DDTVVIPController.m in Sources */,
 				B6D5FAE5269A8E0C00BBD76F /* DDTVTabBarView.m in Sources */,
 				B6D5FB1A269CEF7A00BBD76F /* DDTVHeadViewModel.m in Sources */,
@@ -622,6 +673,7 @@
 				B6D5FB11269CEA9000BBD76F /* DDTVVIPBodyView.m in Sources */,
 				B6D5FB08269B756E00BBD76F /* DDTVFristScrollView.m in Sources */,
 				B6D5FB26269CFB4D00BBD76F /* DDTVMyPageController.m in Sources */,
+				B6D5FB39269DB4D100BBD76F /* DDTVRoomController.m in Sources */,
 				B6D5FB0B269CE2F900BBD76F /* DDTVActiveController.m in Sources */,
 				B6D5FAFB269B6EA600BBD76F /* DDTVFristHeadView.m in Sources */,
 				B6D5FB20269CFB2200BBD76F /* DDTVMyHeadView.m in Sources */,

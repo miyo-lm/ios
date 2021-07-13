@@ -53,6 +53,7 @@
     //设置背景图
 //    self.layer.contents = (id)img.CGImage;
     [[UITabBar appearance] setBackgroundImage:img];
+
 }
 
 //创建按钮及设置按钮图片

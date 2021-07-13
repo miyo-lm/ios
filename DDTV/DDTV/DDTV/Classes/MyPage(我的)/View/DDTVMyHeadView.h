@@ -11,6 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DDTVMyHeadView : UIView
 
+
+@property (nonatomic, copy) void(^changeNavigation)(UIViewController *);
+
 - (void)setBGImg:(UIImage *)img;
 
 

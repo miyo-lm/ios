@@ -11,7 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DDTVSelfRoomMenuView : UIView
 
+@property (nonatomic, copy) void(^toSelfRoom)(UIViewController *);
+
 - (void)setInfo:(NSString *)pathName;
+
 
 @end
 

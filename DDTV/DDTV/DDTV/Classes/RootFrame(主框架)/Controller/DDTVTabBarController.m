@@ -36,6 +36,7 @@
 
     //设置tabBar的背景
     [tabBar setBGImg:[UIImage imageNamed:@"bg_title_bar"]];
+//    [self.tabBar setBackgroundImage:[UIImage imageNamed:@"bg_title_bar"]];
     //循环创建按钮
     for (int i = 0; i < self.viewControllers.count; i++) {
         //获取图片

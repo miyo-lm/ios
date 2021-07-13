@@ -9,7 +9,7 @@
 #import "DDTVMyHeadView.h"
 #import "DDTVMyBodyView.h"
 
-#define HeadH 200
+#define HeadH 280
 
 
 @interface DDTVMyPageController ()
@@ -28,9 +28,13 @@
     DDTVMyBodyView *bodyView = [[DDTVMyBodyView alloc] init];
     //设置HeadView属性
     headView.frame = CGRectMake(0, 0, rFrameW, HeadH);
+    //设置跳转页面的方法
+    headView.changeNavigation = ^(UIViewController *vc){
+        [self.navigationController pushViewController:vc animated:YES];
+    };
 //    [headView setUserIconImg:[self getIconImg:@"UserInfoList"]];
 //    headView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"MyBg"]];
-    [headView setBGImg:[UIImage imageNamed:@"豹豹"]];
+    [headView setBGImg:[UIImage imageNamed:@"恋恋"]];
     
     
     //设置BodyView属性
