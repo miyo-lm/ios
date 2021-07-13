@@ -36,6 +36,9 @@
 		B6D5FB20269CFB2200BBD76F /* DDTVMyHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FB1F269CFB2200BBD76F /* DDTVMyHeadView.m */; };
 		B6D5FB23269CFB3500BBD76F /* DDTVMyBodyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FB22269CFB3500BBD76F /* DDTVMyBodyView.m */; };
 		B6D5FB26269CFB4D00BBD76F /* DDTVMyPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FB25269CFB4D00BBD76F /* DDTVMyPageController.m */; };
+		B6D5FB2C269D217200BBD76F /* UserInfoList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FB2B269D217200BBD76F /* UserInfoList.plist */; };
+		B6D5FB2F269D244600BBD76F /* DDTVSelfRoomMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D5FB2E269D244600BBD76F /* DDTVSelfRoomMenuView.m */; };
+		B6D5FB31269D434000BBD76F /* MyPageIconList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6D5FB30269D434000BBD76F /* MyPageIconList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +114,10 @@
 		B6D5FB22269CFB3500BBD76F /* DDTVMyBodyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVMyBodyView.m; sourceTree = "<group>"; };
 		B6D5FB24269CFB4D00BBD76F /* DDTVMyPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTVMyPageController.h; sourceTree = "<group>"; };
 		B6D5FB25269CFB4D00BBD76F /* DDTVMyPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVMyPageController.m; sourceTree = "<group>"; };
+		B6D5FB2B269D217200BBD76F /* UserInfoList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserInfoList.plist; sourceTree = "<group>"; };
+		B6D5FB2D269D244600BBD76F /* DDTVSelfRoomMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTVSelfRoomMenuView.h; sourceTree = "<group>"; };
+		B6D5FB2E269D244600BBD76F /* DDTVSelfRoomMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTVSelfRoomMenuView.m; sourceTree = "<group>"; };
+		B6D5FB30269D434000BBD76F /* MyPageIconList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MyPageIconList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +271,7 @@
 		B6D5FABD269A88A400BBD76F /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				B6D5FB30269D434000BBD76F /* MyPageIconList.plist */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -292,6 +300,8 @@
 				B6D5FB1F269CFB2200BBD76F /* DDTVMyHeadView.m */,
 				B6D5FB21269CFB3500BBD76F /* DDTVMyBodyView.h */,
 				B6D5FB22269CFB3500BBD76F /* DDTVMyBodyView.m */,
+				B6D5FB2D269D244600BBD76F /* DDTVSelfRoomMenuView.h */,
+				B6D5FB2E269D244600BBD76F /* DDTVSelfRoomMenuView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -448,6 +458,7 @@
 				B6D5FAFC269B6F6500BBD76F /* UIView+DDTVView.h */,
 				B6D5FAFD269B6F6500BBD76F /* UIView+DDTVView.m */,
 				B6D5FAFF269B6FB100BBD76F /* PrefixHeader.pch */,
+				B6D5FB2B269D217200BBD76F /* UserInfoList.plist */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -566,9 +577,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D5FB31269D434000BBD76F /* MyPageIconList.plist in Resources */,
 				B6D5FA8B269A877900BBD76F /* LaunchScreen.storyboard in Resources */,
 				B6D5FAE0269A8B5C00BBD76F /* MyPage.storyboard in Resources */,
 				B6D5FAE7269AB32F00BBD76F /* icon in Resources */,
+				B6D5FB2C269D217200BBD76F /* UserInfoList.plist in Resources */,
 				B6D5FADE269A8B3B00BBD76F /* ActivePage.storyboard in Resources */,
 				B6D5FA88269A877900BBD76F /* Assets.xcassets in Resources */,
 				B6D5FAE2269A8B6B00BBD76F /* VIP.storyboard in Resources */,
@@ -598,6 +611,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6D5FAF4269B6D8000BBD76F /* DDTVActiveHeadView.m in Sources */,
+				B6D5FB2F269D244600BBD76F /* DDTVSelfRoomMenuView.m in Sources */,
 				B6D5FAD7269A88A400BBD76F /* AppDelegate.m in Sources */,
 				B6D5FAD6269A88A400BBD76F /* SceneDelegate.m in Sources */,
 				B6D5FB17269CEAB400BBD76F /* DDTVVIPController.m in Sources */,

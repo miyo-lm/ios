@@ -1,5 +1,5 @@
 //
-//  DDTVMyHeadView.h
+//  DDTVSelfRoomMenuView.h
 //  DDTV
 //
 //  Created by 雷铭 on 2021/7/13.
@@ -9,10 +9,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DDTVMyHeadView : UIView
+@interface DDTVSelfRoomMenuView : UIView
 
-- (void)setBGImg:(UIImage *)img;
-
+- (void)setInfo:(NSString *)pathName;
 
 @end
 

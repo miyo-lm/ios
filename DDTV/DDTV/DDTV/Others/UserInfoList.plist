@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>subscribe</key>
+	<integer>2000</integer>
+	<key>fans</key>
+	<integer>100000</integer>
+	<key>active</key>
+	<integer>100</integer>
+	<key>uname</key>
+	<string>次时代狸猫</string>
+	<key>VIP</key>
+	<string>年度大会员</string>
+	<key>coin</key>
+	<integer>8888</integer>
+	<key>Bcoin</key>
+	<integer>123</integer>
+	<key>icon</key>
+	<string>头像</string>
+</dict>
+</plist>

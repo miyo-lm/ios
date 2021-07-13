@@ -7,7 +7,6 @@
 
 #import "DDTVFristHeadView.h"
 
-
 @interface DDTVFristHeadView ()
 
 @property (nonatomic, strong) UIButton *icon;
@@ -53,7 +52,8 @@
     //计算搜索框的长度
     CGFloat seekx = self.gameBtn.frame.origin.x - self.icon.frame.origin.x - iconInterval;
     self.seekBtn.frame = CGRectMake(iconInterval + interval, top, seekx - 10, icony);
-    
+    //取消搜索框高亮效果
+    [self.seekBtn setAdjustsImageWhenHighlighted:NO];
 
     
 }
