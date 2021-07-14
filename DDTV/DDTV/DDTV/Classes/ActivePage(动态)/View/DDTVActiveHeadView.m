@@ -7,7 +7,6 @@
 
 #import "DDTVActiveHeadView.h"
 
-#define HeadH 90
 
 @interface DDTVActiveHeadView ()
 
@@ -27,7 +26,7 @@
 }
 
 -(void)layoutSubviews{
-    self.shareBtn.frame = CGRectMake(rFrameW - iconInterval, HeadH - iconInterval + 5, iconx, icony);
+    self.shareBtn.frame = CGRectMake(rFrameW - iconInterval, self.frame.size.height - icony, iconx, icony);
 }
 
 #pragma mark - 设置图标相关

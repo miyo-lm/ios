@@ -66,12 +66,12 @@
     self.scanBtn.frame = CGRectMake(rFrameW - iconInterval * 3 , top, iconx, icony);
     
     //设置用户界面frame
-    self.user.frame = CGRectMake(0, interval * 2 + iconInterval, rFrameW, UserH);
+    self.user.frame = CGRectMake(0, interval * 3 + iconInterval, rFrameW, UserH);
     
     
     //设置关注、粉丝、动态按钮
     CGFloat btnx = rFrameW / 3;
-    CGFloat btny = self.user.frame.origin.y + self.user.frame.size.height + interval;
+    CGFloat btny = self.user.frame.origin.y + self.user.frame.size.height + interval * 2;
     
     self.activeBtn.frame = CGRectMake(btnx * 0, btny, btnx, 48);
     [self.activeBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];

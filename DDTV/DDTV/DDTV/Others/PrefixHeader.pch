@@ -16,9 +16,11 @@
 #define rFrameW [UIScreen mainScreen].bounds.size.width
 #define rFrameH [UIScreen mainScreen].bounds.size.height
 
+#define statusBarManager [UIApplication sharedApplication].windows.firstObject.windowScene.statusBarManager
+#define TopStatuHeight statusBarManager.statusBarFrame.size.height
 
 #pragma mark - icon相关
-#define top 44
+#define top (TopStatuHeight>20?44:24)
 #define iconx 40
 #define icony 40
 #define interval 10
