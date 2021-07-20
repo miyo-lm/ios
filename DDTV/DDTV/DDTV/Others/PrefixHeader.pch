@@ -21,9 +21,27 @@
 
 #pragma mark - icon相关
 #define top (TopStatuHeight>20?44:24)
-#define iconx 40
-#define icony 40
-#define interval 10
+#define iconx rFrameH / 22.1
+#define icony iconx
+#define interval rFrameH / 89.6
 #define iconInterval (10 + iconx)
+
+
+#pragma mark - 各界面HeadView高度
+#define activeHeadH rFrameH / 12.8
+#define roomHeadH rFrameH / 9.96
+#define myPageHeadH rFrameH / 3.2
+#define fristViewHeadH rFrameH / 7.47
+#define vipHeadH rFrameH / 11.2
+
+#pragma mark - 我的空间适配
+#define UserH vipHeadH
+
+
+#pragma mark - 字体适配
+
+#define userNameSize rFrameW >= 375 ? (rFrameW > 375 ? 20 : 18) : 16
+#define userInfoSize rFrameW >= 375 ? (rFrameW > 375 ? 16 : 14) : 12
+
 
 #endif /* PrefixHeader_pch */

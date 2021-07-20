@@ -7,7 +7,7 @@
 
 #import "DDTVVIPHeadView.h"
 
-#define HeadH 80
+
 
 @interface DDTVVIPHeadView ()
 
@@ -50,14 +50,14 @@
 
 -(void)layoutSubviews{
     //设置按钮frame
-    self.VIP3.frame = CGRectMake(rFrameW - iconInterval, HeadH - iconInterval, iconx, icony);
-    self.VIP2.frame = CGRectMake(rFrameW - iconInterval * 2, HeadH - iconInterval, iconx, icony);
-    self.VIP1.frame = CGRectMake(rFrameW - iconInterval * 3, HeadH - iconInterval, iconx, icony);
+    self.VIP3.frame = CGRectMake(rFrameW - iconInterval, vipHeadH - iconInterval, iconx, icony);
+    self.VIP2.frame = CGRectMake(rFrameW - iconInterval * 2, vipHeadH - iconInterval, iconx, icony);
+    self.VIP1.frame = CGRectMake(rFrameW - iconInterval * 3, vipHeadH - iconInterval, iconx, icony);
     
     //设置textView的frame
-    self.mainText.frame = CGRectMake(interval, HeadH - interval - self.mainText.bounds.size.height, self.mainText.bounds.size.width, self.mainText.bounds.size.height);
+    self.mainText.frame = CGRectMake(interval, vipHeadH - interval - self.mainText.bounds.size.height, self.mainText.bounds.size.width, self.mainText.bounds.size.height);
     CGFloat minorX = self.mainText.frame.size.width + interval * 2;
-    self.minorText.frame = CGRectMake(minorX, HeadH - interval - self.minorText.bounds.size.height, self.minorText.bounds.size.width, self.minorText.bounds.size.height);
+    self.minorText.frame = CGRectMake(minorX, vipHeadH - interval - self.minorText.bounds.size.height, self.minorText.bounds.size.width, self.minorText.bounds.size.height);
     
 }
 

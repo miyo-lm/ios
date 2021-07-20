@@ -9,7 +9,6 @@
 #import "DDTVMyHeadView.h"
 #import "DDTVMyBodyView.h"
 
-#define HeadH 280
 
 
 @interface DDTVMyPageController ()
@@ -27,7 +26,7 @@
     //创建BodyView
     DDTVMyBodyView *bodyView = [[DDTVMyBodyView alloc] init];
     //设置HeadView属性
-    headView.frame = CGRectMake(0, 0, rFrameW, HeadH);
+    headView.frame = CGRectMake(0, 0, rFrameW, myPageHeadH);
     //设置跳转页面的方法
     headView.changeNavigation = ^(UIViewController *vc){
         [self.navigationController pushViewController:vc animated:YES];
@@ -38,7 +37,7 @@
     
     
     //设置BodyView属性
-    bodyView.frame = CGRectMake(0, rFrameH - HeadH, rFrameW, rFrameH - HeadH);
+    bodyView.frame = CGRectMake(0, rFrameH - myPageHeadH, rFrameW, rFrameH - myPageHeadH);
     //将view添加到self
     [self.view addSubview:headView];
     [self.view addSubview:bodyView];

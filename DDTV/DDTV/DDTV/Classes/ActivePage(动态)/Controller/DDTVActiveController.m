@@ -9,7 +9,8 @@
 #import "DDTVActiveBodyView.h"
 #import "DDTVActiveHeadView.h"
 
-#define HeadH 70
+
+
 
 @interface DDTVActiveController ()
 
@@ -25,8 +26,8 @@
     //创建bodyView
     DDTVActiveBodyView *bodyView = [[DDTVActiveBodyView alloc] init];
     //设置frame
-    headView.frame = CGRectMake(0, 0, rFrameW, HeadH);
-    bodyView.frame = CGRectMake(0, HeadH, rFrameW, rFrameH - HeadH);
+    headView.frame = CGRectMake(0, 0, rFrameW, activeHeadH);
+    bodyView.frame = CGRectMake(0, activeHeadH, rFrameW, rFrameH - activeHeadH);
     //设置HeadView的属性
     
     //设置bodyView的属性

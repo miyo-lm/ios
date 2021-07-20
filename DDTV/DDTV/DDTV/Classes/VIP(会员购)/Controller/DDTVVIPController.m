@@ -9,7 +9,7 @@
 #import "DDTVVIPBodyView.h"
 #import "DDTVVIPHeadView.h"
 
-#define HeadH 80
+
 
 @interface DDTVVIPController ()
 
@@ -26,9 +26,9 @@
     //创建BodyView
     DDTVVIPBodyView *bodyView = [[DDTVVIPBodyView alloc] init];
     //设置HeadView属性
-    headView.frame = CGRectMake(0, 0, rFrameW, HeadH);
+    headView.frame = CGRectMake(0, 0, rFrameW, vipHeadH);
     //设置BodyView属性
-    bodyView.frame = CGRectMake(0, HeadH, rFrameW, rFrameH - HeadH);
+    bodyView.frame = CGRectMake(0, vipHeadH, rFrameW, rFrameH - vipHeadH);
     //添加到self的view上
     [self.view addSubview:headView];
     [self.view addSubview:bodyView];

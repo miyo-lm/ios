@@ -9,7 +9,7 @@
 #import "DDTVFristScrollView.h"
 #import "DDTVFristHeadView.h"
 
-#define HeadH 120
+
 
 @interface DDTVFristViewController ()
 
@@ -26,8 +26,8 @@
     //创建ScrollView
     DDTVFristScrollView *ScrollView = [[DDTVFristScrollView alloc] init];
     //设置两个View的大小
-    headView.frame = CGRectMake(0, 0, rFrameW, HeadH);
-    ScrollView.frame = CGRectMake(0, HeadH, rFrameW, rFrameH - HeadH);
+    headView.frame = CGRectMake(0, 0, rFrameW, fristViewHeadH);
+    ScrollView.frame = CGRectMake(0, fristViewHeadH, rFrameW, rFrameH - fristViewHeadH);
     
     //设置HeadView的属性
     

@@ -8,8 +8,6 @@
 #import "DDTVMyHeadView.h"
 #import "DDTVSelfRoomMenuView.h"
 
-#define HeadH 280
-#define UserH 80
 
 @interface DDTVMyHeadView ()
 

@@ -8,7 +8,7 @@
 #import "DDTVRoomController.h"
 #import "DDTVRoomHeadView.h"
 
-#define HeadH 90
+
 
 @interface DDTVRoomController ()
 
@@ -34,7 +34,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //设置HeadView的属性
-    self.headView.frame = CGRectMake(0, 0, rFrameW, HeadH);
+    self.headView.frame = CGRectMake(0, 0, rFrameW, roomHeadH);
     __weak typeof(self) weakself = self;
     self.headView.backPage = ^(){
         [weakself.navigationController popViewControllerAnimated:YES];
