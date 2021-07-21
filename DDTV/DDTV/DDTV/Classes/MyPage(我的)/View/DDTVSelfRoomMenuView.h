@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) void(^toSelfRoom)(UIViewController *);
 
-- (void)setInfo:(NSString *)pathName;
+
 
 
 @end

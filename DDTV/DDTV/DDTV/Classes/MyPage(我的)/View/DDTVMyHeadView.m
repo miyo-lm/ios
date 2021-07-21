@@ -7,7 +7,7 @@
 
 #import "DDTVMyHeadView.h"
 #import "DDTVSelfRoomMenuView.h"
-
+#import "DDTVUserInfo.h"
 
 @interface DDTVMyHeadView ()
 
@@ -82,9 +82,9 @@
     
     
     //设置属性
-    [self.user setInfo:@"UserInfoList"];
+
     [self setAllIcon:@"MyPageIconList"];
-    [self setBtnInfo:@"UserInfoList"];
+    [self setBtnInfo];
     
     
 }
@@ -105,11 +105,11 @@
     
 }
 
-- (void)setBtnInfo:(NSString *)pathName{
-    //获取文件
-    NSString *path = [[NSBundle mainBundle] pathForResource:pathName ofType:@"plist"];
-    //加载文件
-    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
+- (void)setBtnInfo{
+    //获取用户信息
+    DDTVUserInfo *userInfo = [DDTVUserInfo sharedUserInfo];
+    //加载数据
+    NSDictionary *dict = userInfo.userDict;
     //设置关注、粉丝、动态按钮
     NSNumber *acNum = dict[@"active"];
     [self.activeBtn setTitle:[NSString stringWithFormat:@"%d\n动态",[acNum intValue]] forState:UIControlStateNormal];

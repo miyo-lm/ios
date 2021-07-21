@@ -7,6 +7,8 @@
 
 #import "AppDelegate.h"
 
+
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
+    //获取用户信息
+    DDTVUserInfo *userInfo = [DDTVUserInfo sharedUserInfo];
+    //获取文件
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"UserInfoList" ofType:@"plist"];
+    //加载文件
+    userInfo.userDict = [NSDictionary dictionaryWithContentsOfFile:path];
+    
     return YES;
 }
 

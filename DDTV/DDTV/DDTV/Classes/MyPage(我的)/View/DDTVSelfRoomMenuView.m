@@ -50,6 +50,9 @@
 }
 
 -(void)layoutSubviews{
+    //设置信息
+    [self setInfo];
+    
     //设置头像frame
     self.userIcon.frame = CGRectMake(self.frame.size.height - userX, self.frame.size.height - userX, userX, userY);
     
@@ -81,11 +84,11 @@
 
 #pragma mark - 设置文本内容
 //设置用户信息
-- (void)setInfo:(NSString *)pathName{
-    //获取文件
-    NSString *path = [[NSBundle mainBundle] pathForResource:pathName ofType:@"plist"];
-    //加载文件
-    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
+- (void)setInfo{
+    //获取用户信息
+    DDTVUserInfo *userInfo = [DDTVUserInfo sharedUserInfo];
+    //加载数据
+    NSDictionary *dict = userInfo.userDict;
     //设置用户头像
     [self setIcon:[UIImage imageNamed:dict[@"icon"]]];
     //设置用户名

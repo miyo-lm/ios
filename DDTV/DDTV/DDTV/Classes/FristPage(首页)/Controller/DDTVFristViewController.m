@@ -45,21 +45,23 @@
     //获取头像
 //    UIImage *iconImg = [UIImage imageNamed:@"头像"];
     //调用方法设置头像
-    [headView setIconImg:[self getIconImg:@"UserInfoList"]];
+    [headView setIconImg:[self getIconImg]];
     //设置游戏中心、消息中心、搜索框图片
     [headView setGameImg:[UIImage imageNamed:@"gameBtn"]];
     [headView setNewsImg:[UIImage imageNamed:@"newsBtn"]];
     [headView setSeekImg:[UIImage imageNamed:@"seekBtn"]];
     
+
+    
     
     
 }
 
-- (UIImage *)getIconImg:(NSString *)name{
-    //获取文件路径
-    NSString *path = [[NSBundle mainBundle] pathForResource:name ofType:@"plist"];
-    //加载文件
-    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
+- (UIImage *)getIconImg{
+    //获取用户信息
+    DDTVUserInfo *userInfo = [DDTVUserInfo sharedUserInfo];
+    //加载数据
+    NSDictionary *dict = userInfo.userDict;
     //获取图片
     UIImage *img = [UIImage imageNamed:dict[@"icon"]];
     //返回图片
